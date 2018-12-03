@@ -1,0 +1,44 @@
+body{
+    position: relative;
+    min-height: 100%;
+    top: 0px;
+    background-color: #f5e79e;
+}
+.login {
+
+    top: 100px;
+    width: 400px;
+    padding: 25px;
+    border: 10px outset #eb9316 ;
+    border-radius: 15px 50px 30px;
+    margin: auto;
+    align-content: center;
+    background-color: #f7e1b5;
+
+    /*height: ;*/
+}
+
+.forms {
+    border: 2px solid sandybrown;
+    border-radius: 15px 50px 30px;
+    padding: 12px 20px;
+}
+
+.login-btn {
+    background-color: #ffa832;
+    border: double saddlebrown ;
+    margin:0px 25px ;
+    width: 100px;
+    font-size: large;
+    border-radius: 50px 15px ;
+    /*box-sizing: 25px;*/
+}
+
+.signup-btn {
+    font-size: large;
+    margin:0px 35px ;
+    width: 100px;
+    /*background-color: #f0ad4e;*/
+    border: double saddlebrown ;
+    border-radius: 15px 50px ;
+}

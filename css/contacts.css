@@ -1,0 +1,11 @@
+body{
+    position: relative; min-height: 100%; top: 0px;
+    /*display: flex;*/
+    /*margin: 100%;*/
+    /*background-color: #f7e1b5;*/
+}
+.contacts-header {
+    background-color: #1b6d85;
+    align-content: center;
+    font-size: large;
+}

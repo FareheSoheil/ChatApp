@@ -1,0 +1,239 @@
+/*body{*/
+    /*position: relative; min-height: 100%; top: 0px;*/
+    /*!*margin: 100%;*!*/
+    /*!*background-color: #f7e1b5;*!*/
+/*}*/
+
+#header {
+    background-color:#555555;
+    color:#1b6d85;
+    text-align:center;
+    padding:5px;
+
+}
+.selected {
+    background-color:lightslategrey;
+    color:white;
+    border-radius: 7px;
+}
+/*.sidebar {*/
+    /*border: hidden;*/
+    /*background-color:whitesmoke;*/
+    /*line-height:30px;*/
+    /*min-height:100%;*/
+
+    /*max-height:300px ;*/
+    /*padding:20px;*/
+    /*!*max-width:50%;*!*/
+    /*float:right;*/
+    /*top: 0px;*/
+/*}*/
+/*.chatheader {*/
+    /*!*background-color: #0f0f0f;*!*/
+    /*!*border: hidden;*!*/
+    /*border:solid thin #ec971f;*/
+    /*margin-top: 0%;*/
+    /*!*max-width:90%;*!*/
+    /*min-width: 80%;*/
+    /*min-height: 100%;*/
+    /*text-align:right;*/
+    /*float:left;*/
+
+    /*!*border: 2px solid #ec971f;*!*/
+    /*padding:10px;*/
+/*}*/
+/*#chat-content {*/
+    /*border:solid thin #ec971f;*/
+    /*margin-top: 0%;*/
+    /*!*max-width:90%;*!*/
+    /*min-width: 80%;*/
+    /*min-height: 100%;*/
+    /*text-align:center;*/
+    /*!*float:left;*!*/
+
+/*}*/
+#footer {
+    /*background-color:black;*/
+    color:#761c19;
+    font-size: larger;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    background-size: 500px;
+}
+
+.mynavbar {
+    background-color:#1b6d85 ;
+    /*text-align: right;*/
+    /*position: inherit;*/
+    height:60px;
+    /*min-width: 20%;*/
+    top:0px;
+}
+
+.mynavbar-right {
+    float: right;
+    width: 110px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.fontS {
+    font-size: medium;
+    color: white ;
+}
+
+.report-btn {
+
+}
+.refresh-btn {
+
+}
+.loadprofile-btn {
+
+}
+.privateChat-btn {
+
+}
+.contacts-header {
+    background-color: #1b6d85;
+    align-content: center;
+    font-size: large;
+}
+
+/*zahra*/
+.contact{
+    background-color: #8c8c8c;
+    border-radius:8px;
+    max-height:100% ;
+    padding:10px;
+}
+.contact-title{
+    float: right;
+}
+.contact img{
+    width: 60px;
+    height: 60px;
+}
+.container{
+    padding:5px;
+    margin: 0px;
+    width: 100%;
+}
+.container2{
+    padding:5px;
+    margin-right: 0px;
+}
+.title img{
+    width: 60px;
+    height: 60px;
+}
+
+.selected {
+    background-color: #555555;
+    color:white;
+    border-radius: 7px;
+}
+.searchResult{
+    list-style: none;
+}
+.searchResult li:hover{
+    background-color: #9acfea;
+}
+
+.chat
+{
+    list-style: georgian;
+    margin: 0;
+    font-size: small;
+
+    /*background-color:#888888;*/
+    /*padding: 0;*/
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.appmodal {
+    /*width: 70%;*/
+    border: medium;
+    border-radius: 15px;
+    background-color: dimgray;
+    padding-left: 15px;
+    margin-left: 5%;
+    margin-right: 70%;
+    overflow: hidden;
+    height: 30px;
+    width: 200px;
+}
+
+.appmodallabel {
+    font-kerning: normal;
+    font-style: oblique;
+    color: white;
+}
+.bio {
+    height : 90px;
+    width : 300px;
+}
+.scroll {
+    width: auto;
+    height:400px;
+    overflow: scroll;
+    scrollbar-face-color: #000000;
+    scrollbar-shadow-color: #2D2C4D;
+    scrollbar-highlight-color:#7D7E94;
+    scrollbar-3dlight-color: #7D7E94;
+    scrollbar-darkshadow-color: #2D2C4D;
+    scrollbar-track-color: #7D7E94;
+    scrollbar-arrow-color: #C1C1D1;
+
+
+
+}
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.uname{
+    font-family: Arial;
+    color: #2b669a;
+    font-size: x-large;
+}

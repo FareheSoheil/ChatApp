@@ -1,0 +1,12 @@
+{
+    "name": "root/chat-project",
+    "authors": [
+        {
+            "name": "carol",
+            "email": "farehe.soheil@yahoo.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.0"
+    }
+}
